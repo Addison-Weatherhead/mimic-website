@@ -49,7 +49,7 @@ Identifiers which specify the patient: `subject_id` is unique to a patient, `had
 
 ## `FIRST_CAREUNIT`, `LAST_CAREUNIT`
 
-`FIRST_CAREUNIT` and `LAST_CAREUNIT` contain, respectively, the first and last ICU type in which the patient was cared for. As an `stay_id` groups all ICU admissions within 24 hours of each other, it is possible for a patient to be transferred from one type of ICU to another and have the same `stay_id`.
+`FIRST_CAREUNIT` and `LAST_CAREUNIT` contain, respectively, the first and last ICU type in which the patient was cared for. As a `stay_id` groups all ICU admissions within 24 hours of each other, it is possible for a patient to be transferred from one type of ICU to another and have the same `stay_id`.
 
 Care units are derived from the TRANSFERS table, and definition for the abbreviations can be found in the documentation for TRANSFERS.
 
